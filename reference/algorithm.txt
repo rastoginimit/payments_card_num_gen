@@ -1,0 +1,10 @@
+The Lunh's Algorithm
+--------------------
+1. Generate a number with one digit less than the desired length. To generate a 16 digit card number, create a random number of 15 digits
+2. Reverse these numbers
+3. Replace every digit at odd place by its double - if the double is more than 9, use the sum of the digits in the double
+4. Take sum of all the digits i.e. old digits at even places and new digits as odd places
+5. Divide the sum by 10 and the reminder
+6. Use this reminder as the last digit in the original nnumber in step# 1
+7. This is the final valid card number
+
